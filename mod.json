@@ -1,0 +1,32 @@
+{
+	"geode": "4.6.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "dan.editor-plus",
+	"name": "Editor Plus",
+	"version": "v1.0.0",
+	"developer": "Dan",
+	"description": "Дополнительные инструменты для редактора: выравнивание, привязка к сетке, равномерное распределение и выбор объектов по ID.",
+	"repository": "https://github.com/vasya/editor-plus",
+	"tags": ["editor", "utility"],
+	"settings": {
+		"show-panel": {
+			"type": "bool",
+			"name": "Показывать панель",
+			"description": "Показывать панель Editor Plus в редакторе (нужен перезапуск редактора).",
+			"default": true
+		},
+		"grid-size": {
+			"type": "float",
+			"name": "Размер сетки",
+			"description": "Размер сетки для кнопки Snap (в единицах GD, обычный блок = 30).",
+			"default": 30.0,
+			"min": 1.0,
+			"max": 120.0
+		}
+	}
+}
